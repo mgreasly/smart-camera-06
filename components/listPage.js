@@ -2,7 +2,7 @@ import { Component } from 'preact';
 import { connect } from 'redux-zero/preact';
 import {mapToProps, actions} from './store';
 
-class Results extends Component {
+class ListPage extends Component {
 	render() {
         return (
             <div id="results">
@@ -13,4 +13,4 @@ class Results extends Component {
    	}
 };
 
-export default connect(mapToProps, actions)(Results);
+export default connect(mapToProps, actions)(ListPage);
